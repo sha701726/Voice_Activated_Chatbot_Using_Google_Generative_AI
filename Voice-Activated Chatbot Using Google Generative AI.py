@@ -12,7 +12,7 @@ voice_id = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS
 engine.setProperty('voice', voice_id)
 
 # Configure the API key for the Generative AI service
-genai.configure(api_key="AIzaSyAxFa_ZyjIrZ8vdVOHTLb6BYwjQLJpPYJs")
+genai.configure(api_key="YOUR API KEY")
 
 # Get OS data using a shell command
 try:
